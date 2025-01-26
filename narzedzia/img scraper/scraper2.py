@@ -1,3 +1,4 @@
+import csv
 import os
 import re
 import requests
@@ -34,13 +35,23 @@ if __name__ == "__main__":
 
     images = soup.find_all("img", src=re.compile(r"^/images/.+/.+/.+\.png$"))
 
+    url_list_csv = "images.csv"
+
+    url_list = []
+    with open(url_list_csv, 'r', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        for row in reader:
+            url_list.append(row)
+
     for img in images:
         src = img["src"]
         file_name = os.path.basename(src)
         full_url = f"{base_url}{src}"
-        save_path = os.path.join(output_folder, file_name)
-
-        #print(file_name, full_url, save_path)
-        #download_image(full_url, save_path)
-
-    print("Pobieranie zakończone.")
+        id = file_name.split("_")[1]
+        id : str = id.removesuffix('.png')
+        url_list.append({'id':id,'url':full_url})
+        
+    with open(url_list_csv, 'w', encoding='utf-8', newline='') as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=['id','url'])
+        writer.writeheader()
+        writer.writerows(url_list)
