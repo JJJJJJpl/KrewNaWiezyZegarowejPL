@@ -35,7 +35,7 @@ deviant,Wykolejeniec,"Jeśli byłeś dziś zabawny, to nie możesz zostać wygna
 devilsadvocate,Adwokat diabła,"Każdej nocy wybierz żywego gracza (innego niż poprzedniej nocy). Jeśli jutro zostanie stracony, nie umrze.",Adwokat diabła wskazuje na żywego gracza. Ten gracz przetrwa jutrzejszą egzekucję.,"Adwokat diabła wskazuje na żywego gracza, innego niż zeszłej nocy. Ten gracz przetrwa jutrzejszą egzekucję.",,Przeżywa egzekucję
 djinn,dżin,Use the Djinn's special rule. All players know what it is.,,,,
 doomsayer,Fatalista,"Jeśli żyje 4 lub więcej graczy, każdy z nich może publicznie (raz na grę) zdecydować, że gracz z jego drużyny umrze.",,,,
-dreamer,Marzyciel,"Każdej nocy wybierz gracza (nie siebie, nie przybysza). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawidłowa.",Śniączka wskazuje gracza. Pokaż 1 żeton dobrej postaci i 1 złej, jeden z nich jest prawidłowy.,Śniączka wskazuje gracza. Pokaż 1 żeton dobrej postaci i 1 złej, jeden z nich jest prawidłowy.,,
+dreamer,Marzyciel,"Każdej nocy wybierz gracza (nie siebie, nie przybysza). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawidłowa.","Marzyciel wskazuje gracza. Pokaż 1 żeton dobrej postaci i 1 złej, jeden z nich jest prawidłowy.","Marzyciel wskazuje gracza. Pokaż 1 żeton dobrej postaci i 1 złej, jeden z nich jest prawidłowy.",,
 drunk,Pijak,"Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś mieszczaninem, ale Twoja umiejętność nie działa prawidłowo.",,,Pijak,
 duchess,księżna,"Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",,,,"False Info,Visitor"
 empath,Empata,Każdej nocy dowiadujesz się ilu z Twoich żyjących sąsiadów jest złych.,"Pokaż sygnał palcami (0, 1, 2) odpowiadający liczbie żyjących sąsiadów Empaty.","Pokaż sygnał palcami (0, 1, 2) odpowiadający liczbie żyjących sąsiadów Empaty.",,
@@ -73,7 +73,7 @@ juggler,Żongler,"Swojego pierwszego dnia, publicznie zgadnij, jakimi postaciami
 king,Król,"Każdej nocy, jeśli jest więcej lub tyle samo martwych co żywych graczy, poznajesz 1 żywą postać. Demon wie, że jesteś Królem.","Obudź Demona, pokaż mu kartę „Ta postać cię wybrała”, pokaż żeton Króla i wskaż gracza, który jest Królem.","Jeżeli zmarłych jest więcej niż żywych, pokaż Królowi żeton postaci żyjącego gracza.",,
 klutz,Fajtłapa,"Kiedy dowiesz się, że nie żyjesz, publicznie wybierz jednego żywego gracza - jeśli jest zły, Twoja drużyna przegrywa.",,,,
 legion,Legion,"Każdej nocy* gracz może umrzeć. Egzekucje nie powiodą się, jeśli głosowało tylko zło. Jesteś również Sługusem. [Większość graczy to Legion]",,Wybierz gracza. Ten gracz umiera.,,zgon
-leviathan,Lewiatan,"Jeśli więcej niż 1 dobry gracz zostanie stracony, wygrywasz. Wszyscy gracze wiedzą, że jesteś w grze. Po 5 dniu zło wygrywa.",Umieść znacznik Lewiatana „Dzień 1”. Ogłoś „Lewiatan jest w grze, to jest Dzień 1”.,Zmień znacznik dnia Lewiatana na następny.,,"Dzień 1,Dzień 2,Dzień 3,Dzień 4,Dzień 5,Dobry gracz stracony"
+leviathan,Lewiatan,"Jeśli więcej niż 1 dobry gracz zostanie stracony, wygrywasz. Wszyscy gracze wiedzą, że jesteś w grze. Po 5 dniu zło wygrywa.","Umieść znacznik Lewiatana 'Dzień 1'. Ogłoś 'Lewiatan jest w grze, to jest Dzień 1'.",Zmień znacznik dnia Lewiatana na następny.,,"Dzień 1,Dzień 2,Dzień 3,Dzień 4,Dzień 5,Dobry gracz stracony"
 librarian,Bibliotekarz,"Na poczatku gry dowiadujesz sie, że jeden z dwóch graczy jest konkretnym Przybyszem (lub że jest ich 0 w grze).","Pokaż żeton Ousidera będącego w grze. Wskaż dwóch graczy, jeden z nich jest tym Outsiderem.",,,"Outsider,Wrong"
 lilmonsta,Potworek,"Każdej nocy Sługusi wybierają, kto opiekuje się żetonem Potworka i „jest Demonem”. Każdej nocy umiera jeden gracz*. [+1 Minion]","Obudź wszystkich Sługusów jednocześnie i pozwól im głosować, wskazując osobę, którą chcą niańczyć potworka.","Obudź wszystkich Sługusów jednocześnie i pozwól im głosować, wskazując osobę, którą chcą niańczyć potworka. Wybierz gracza który umrze.","zgon,Jest Demonem",
 lleech,Pijjawka,"Każdej nocy* wybierz gracza, który umiera. Zaczynasz wybierając żywego gracza: jest otruty – umierasz, tylko gdy on umrze.","Pijjawka wskazuje gracza, połóż obok niego żeton Pijany.",Pijjawka wskazuje na gracza. Ten gracz umiera.,,"zgon,Pijany"
@@ -142,16 +142,16 @@ washerwoman,Praczka,"Na początku gry dowiadujesz się, że jeden z dwóch gracz
 widow,Wdowa,"Pierwszej nocy zajrzyj do grymuaru i wybierz gracza: jest on otruty. Jeden dobry gracz wie, że w grze jest Wdowa.","Pokaż Grimoire Wdowie tak długo, jak będzie to potrzebne. Wdowa wskazuje na gracza. Ten gracz jest otruty. Obudź tego gracza. Pokaż kartę „Te postacie są w grze”, a następnie żeton postaci Wdowy.",,Wie,Pijany
 witch,Wiedźma,"Każdej nocy wybierz gracza - jeśli jutro nominuje, umrze. Tracisz tę zdolność przy trzech żywych graczach.","Wiedźma wskazuje na gracza. Jeśli ten gracz nominuje jutro, natychmiast umiera.","Jeśli przy życiu pozostaje 4 lub więcej graczy - Wiedźma wskazuje gracza. Jeśli ten gracz jutro nominuje, natychmiast umiera.",,przeklęty
 zombuul,Zombul,"Każdej nocy*, jeśli dziś nikt nie zginął, wybierz gracza, który umrze. Kiedy umrzesz po raz pierwszy, będziesz nadal życ, ale będziesz się pokazywać jako martwy.",,Jeśli nikt nie zginął w ciągu dnia: Zombuul wskazuje gracza. Ten gracz umiera.,,"zgon,dziś umarł"
-organgrinder,Organ Grinder,All players keep their eyes closed when voting & the vote tally is secret. Votes for you only count if you vote.,,,,About to die
-plaguedoctor,Plague Doctor,"If you die, the Storyteller gains a not-in-play Minion ability.",,Storyteller Ability,,
-shugenja,Shugenja,"You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",,,,
-ojo,Ojo,"Each night*. Choose a character, they die. If they are not in play, the Storyteller chooses who dies.",,,,
-villageidiot,Village Idiot,"Każdej nocy wybieraj gracza: poznaj drużynę do której należy. [+0 do +2 Village Idiots. 1 jest pijany]",,,,
+organgrinder,Kataryniarz,"Wszyscy gracze trzymają oczy zamknięte podczas głosowania, a podliczenie głosów jest tajne. Każdej nocy wybierz, czy będziesz pijany do zmierzchu","Kataryniarz wybiera czy jest pijany.","Kataryniarz wybiera czy jest pijany.",,Skazany
+plaguedoctor,Lekarz plagi,"Jeśli umrzesz, Bajarz zyskuje umiejętność Sługusa, którego nie ma w grze.",,"Otrzymujesz umiejśtność sługusa, jeżeli zmarł tej nocy. Wykonaj ją w odpoiednim momencie nocy.",,
+shugenja,Shugenja,"Zaczyna się wiedzieć, czy twój najbliższy zły gracz jest zgodnie z ruchem wskazówek zegara czy przeciwnie do ruchu wskazówek zegara. Jeśli jest w równej odległości, ta informacja jest losowa.","Obudź Shugenj'e i wskaż lewo lub prawo, zależnie w którą stronę jest najbliższy zły gracz.",,,
+ojo,Ojo,"Każdej nocy*. Wybierz postać, ona umiera. Jeśli nie są w grze, Bajarz wybiera, kto umiera.",,"Obudź Ojo. Wskazuje na swojej karcie postać. Jeżeli ta postać jest w grze: umiera, inaczej wybierz kto umiera.",,
+villageidiot,Kuma,"Każdej nocy wybieraj gracza: poznaj drużynę do której należy. [+0 do +2 Kum. 1 jest pijana]",,,,
 ferryman,Ferryman,"On the final day, all dead players regain their vote token.",,,,
 banshee,Banshee,"Jeśli Demon cię zabije, wszyscy gracze się o tym dowiadują. Od teraz możesz nominować dwa razy dziennie i głosować dwa razy na nominację.",,"Ogłoś, że bashee powstała.",,Ma umiejętność
-alsaahir,Alsaahir,"Raz dziennie, jeśli publicznie zgadniesz, którzy gracze są Sługusami, a którzy Demonami, dobro wygrywa.",,,,
+alsaahir,Alsahir,"Raz dziennie, jeśli publicznie zgadniesz, którzy gracze są Sługusami, a którzy Demonami, dobro wygrywa.",,,,
 zealot,Fanatyk,"Jeśli przy życiu jest 5 lub więcej graczy, musisz głosować na każdą nominację.",,,,
-lordoftyphon,Lord of Typhon,"Each night*, choose a player: they die. [Wszyscy źli obok siebie]",,,,
+lordoftyphon,Władca Minosu,"Każdej nocy*, wybierz gracza który umrze. [Wszyscy źli są obok siebie, jesteś po środku. +1 Sługus. od -? do +? Przybyszy]",,Władca Minosu wskazuje gracza. Gracz ten umiera.,,
 boffin,Szalony naukowiec,"Demon (nawet pijany lub otruty) ma zdolność dobrej postaci której nie ma w grze. Oboje wiecie, która.","Obudź Demona i Szalonego naukowica. Pokaż im kartę ”ta postać cie wybrała” i żeton dobrej postaci której nie ma w grze.",,,
 bootlegger,Bootlegger,,,,,
 gardener,Gardener,,,,,
@@ -165,3 +165,5 @@ ogre,Ogr,"Pierwszej nocy wybierz gracza (nie siebie). Stań się jego sojuszniki
 highpriestess,Najwyższa Kapłanka,"Każdej nocy dowiedz się, z którym graczem, zdaniem Bajarza, powinieneś następnie porozmawiać.",Wskaż gracza.,Wskaż gracza.,,
 vizier,Wezyr,"Wszyscy gracze wiedzą kim jesteś. Nie możesz umrzeć w ciągu dnia. Jeśli dobry gracz zagłosował, możesz  zdecydować by natychmiast doszło do egzekucji.","Ogłoś, że Wezyr jest w grze i kto nim jest.",,,
 summoner,Przywoływacz,Masz 3 blefy. Trzeciej nocy wybierz gracza: staje się on złym Demonem twojego wyboru. [Brak Demona],Pokaż Przywoływaczowi 3 blefy.,"Jeśli jest to 3 noc, obudź Przywoływacza. Wskazują gracza i Demona na karcie postaci - ten gracz staje się tym Demonem.",,"Noc 1,Noc 2,Noc 3"
+xaan,Xaan,"W noc X wszyscy Mieszczanie są otruci aż do zmierzchu. [X Przybyszy]","Jeżeli nie ma przbyszy wszyscy mieszczanie są otruci.","Jeżeli numer nocy jest taki jak ilość przybyszy na początku gry wszyscy mieszczanie są otruci.",,"1,2,3,4,x"
+wizard,Czarodziej,"Raz na grę wybierz życzenie. Jeśli zostanie spełnione, może mieć cenę i może zostawić wskazówkę.",,,,
