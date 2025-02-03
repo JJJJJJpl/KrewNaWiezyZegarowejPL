@@ -1,0 +1,423 @@
+[
+    {
+        "id": "_meta",
+        "name": "China Shop",
+        "author": "Autumn"
+    },
+    {
+        "id": "pl_PL_knight",
+        "name": "Rycerz",
+        "ability": "Zaczyna znając dwóch graczy, którzy nie są Demonem.",
+        "firstNightReminder": "Podczas pierwszej nocy obudź Rycerza. Wskaż dwóch graczy któży nie są Demonem.",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [
+            "Zna"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 33.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_knight.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_grandmother",
+        "name": "Babcia",
+        "ability": "Zaczynasz grę, znając tożsamość i postać jednego dobrego gracza. Jeśli Demon go zabije, umierasz wraz z nim.",
+        "firstNightReminder": "Pokaż wybrany żeton postaci i gracza który nim jest.",
+        "otherNightReminder": "Jeśli wnuk został zabita przez Demona tej nocy, Babcia umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Wnuk"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 40.0,
+        "otherNight": 51.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_grandmother.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_general",
+        "name": "Generał",
+        "ability": "Każdej nocy dowiadujesz się, która strona, zdaniem Bajarza, wygrywa: dobra, zła, czy żadna.",
+        "firstNightReminder": "Pokaż kciuk do góry, jeśli zwycięża dobro, kciuk w dół, jeśli zwycięża zło, lub kciuk na bok, jeśli żadne.",
+        "otherNightReminder": "Pokaż kciuk do góry, jeśli zwycięża dobro, kciuk w dół, jeśli zwycięża zło, lub kciuk na bok, jeśli żadne.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 50.0,
+        "otherNight": 69.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/9/99/Icon_general.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_innkeeper",
+        "name": "Karczmarz",
+        "ability": "Każdej nocy* wybierz 2 graczy: żaden z nich nie może umrzeć tej nocy, ale jeden z nich będzie pijany do kolejnego zmierzchu.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Wcześniej chronieni i pijani gracze tracą te żetony. Karczmarz wskazuje na dwóch graczy. Ci gracze są chronieni. Jeden jest pijany.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Pijany",
+            "Chroniony"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 9.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/0/0c/Icon_innkeeper.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_savant",
+        "name": "Uczony",
+        "ability": "Każdego dnia możesz odwiedzić Bajarza, żeby na osobności dowiedzieć się 2 rzeczy - jedna z nich jest prawdziwa, a jedna fałszywa.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/d5/Icon_savant.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_amnesiac",
+        "name": "Sklerotyk",
+        "ability": "Nie znasz swojej umiejętności. Każdego dnia na osobności zgadnij jaka ona jest: dowiadujesz się jak blisko byłeś.",
+        "firstNightReminder": "Stwórz całą umiejętność Sklerotyka. Jeżeli jego umiejętność wymaga by się obudził: Obudź go i wykonaj ją.",
+        "otherNightReminder": "Jeżeli jego umiejętność wymaga by się obudził: Obudź go i wykonaj ją.",
+        "remindersGlobal": [],
+        "reminders": [
+            "?"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 32.0,
+        "otherNight": 47.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_amnesiac.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_juggler",
+        "name": "Żongler",
+        "ability": "Swojego pierwszego dnia, publicznie zgadnij, jakimi postaciami jest 5 bądź mniej graczy. Następnej nocy dowiesz się, ilu zgadłeś poprawnie.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeśli dziś był pierwszy dzień Żonglera - Pokaż na palcach liczbę \"poprawnych\" żetonów (0, 1, 2 itd.). Odłóż te żetony.",
+        "remindersGlobal": [],
+        "reminders": [
+            "poprawnie"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 61.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/4/42/Icon_juggler.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_alsaahir",
+        "name": "Alsahir",
+        "ability": "Raz dziennie, jeśli publicznie zgadniesz, którzy gracze są Sługusami, a którzy Demonami, dobro wygrywa.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/8/8e/Icon_alsaahir.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_philosopher",
+        "name": "Filozof",
+        "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać - uzyskasz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
+        "firstNightReminder": "Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
+        "otherNightReminder": "Jeśli Filozof nie wykorzystał jeszcze swojej zdolności - Filozof albo kręci głową na nie albo wskazuje dobrą postać na skrypcie. Jeśli wybrał postać - zamień żeton postaci, której nie ma w grze, z żetonem Filozofa i umieść przy nim żeton 'JEST FILOZOFEM'. Lub, jeśli postać jest w grze, umieść żeton 'PIJANY' przy tym graczu.",
+        "remindersGlobal": [
+            "jest filozofem",
+            "pijany"
+        ],
+        "reminders": [
+            "Drunk",
+            "Is the Philosopher"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 2.0,
+        "otherNight": 2.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/5/5d/Icon_philosopher.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_fool",
+        "name": "Błazen",
+        "ability": "Za pierwszym razem kiedy miałbyś umrzeć, przeżywasz.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [
+            "Brak umiejętności"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/d9/Icon_fool.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_pacifist",
+        "name": "Pacyfista",
+        "ability": "Dobrzy gracze poddani egzekucji mogą nie umrzeć.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/5/5d/Icon_pacifist.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_tealady",
+        "name": "Herbaciarka",
+        "ability": "Jeśli obydwoje z Twoich żyjących sąsiadów jest dobrych, żadne z nich nie może umrzeć.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [
+            "Nie może umrzeć"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_tealady.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_farmer",
+        "name": "Chłop",
+        "ability": "Jeżeli umrzesz w nocy, żywy dobry gracz zostaje Chłopem.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeśli Chłop umarł tej nocy, wybierz innego dobrego gracza, który zostaje Chłopem. Obudź tego gracza, pokaż mu kartę „Jesteś” i żeton postaci Farmera.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 48.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/f/fe/Icon_farmer.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_tinker",
+        "name": "Druciarz",
+        "ability": "Możesz umrzeć w dowolnym momencie.",
+        "firstNightReminder": "Druciaż może umrzeć.",
+        "otherNightReminder": "Druciaż może umrzeć.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon"
+        ],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 49.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/9/98/Icon_tinker.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_plaguedoctor",
+        "name": "Lekarz plagi",
+        "ability": "Jeśli umrzesz, Bajarz zyskuje umiejętność Sługusa, którego nie ma w grze.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Otrzymujesz umiejśtność sługusa, jeżeli zmarł tej nocy. Wykonaj ją w odpoiednim momencie nocy.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 10.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/e/e2/Icon_plaguedoctor.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_drunk",
+        "name": "Pijak",
+        "ability": "Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś Mieszczaninem, ale twoja umiejętność nie działa prawidłowo.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [
+            "Pijak"
+        ],
+        "reminders": [],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/4/4a/Icon_drunk.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_klutz",
+        "name": "Fajtłapa",
+        "ability": "Kiedy dowiesz się, że nie żyjesz, publicznie wybierz jednego żywego gracza - jeśli jest zły, Twoja drużyna przegrywa.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/b/bc/Icon_klutz.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_widow",
+        "name": "Wdowa",
+        "ability": "Pierwszej nocy zajrzyj do grymuaru i wybierz gracza: jest on otruty. Jeden dobry gracz wie, że w grze jest Wdowa.",
+        "firstNightReminder": "Pokaż Grimoire Wdowie tak długo, jak będzie to potrzebne. Wdowa wskazuje na gracza. Ten gracz jest otruty. Obudź tego gracza. Pokaż kartę „Te postacie są w grze”, a następnie żeton postaci Wdowy.",
+        "otherNightReminder": "",
+        "remindersGlobal": [
+            "Wie"
+        ],
+        "reminders": [
+            "Pijany"
+        ],
+        "team": "Minion",
+        "firstNight": 18.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/9/99/Icon_widow.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_godfather",
+        "name": "Ojciec chrzestny",
+        "ability": "Na początku gry dowiadujesz się, którzy Przybysze są w grze. Jeśli jeden z nich dziś umarł, wybierz nocą gracza, który zginie. [-1 lub +1 Przybysz]",
+        "firstNightReminder": "Pokaż żeton każdego Przybysza który jest w grze.",
+        "otherNightReminder": "Jeżeli dziś zmarł przybysz: Ojciec chrzestny wskazuje na gracza. Ten gracz umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon",
+            "zmarł dziś"
+        ],
+        "team": "Minion",
+        "firstNight": 21.0,
+        "otherNight": 37.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/d0/Icon_godfather.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_devilsadvocate",
+        "name": "Adwokat diabła",
+        "ability": "Każdej nocy wybierz żywego gracza (innego niż poprzedniej nocy). Jeśli jutro zostanie stracony, nie umrze.",
+        "firstNightReminder": "Adwokat diabła wskazuje na żywego gracza. Ten gracz przetrwa jutrzejszą egzekucję.",
+        "otherNightReminder": "Adwokat diabła wskazuje na żywego gracza, innego niż zeszłej nocy. Ten gracz przetrwa jutrzejszą egzekucję.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Przeżywa egzekucję"
+        ],
+        "team": "Minion",
+        "firstNight": 22.0,
+        "otherNight": 13.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/0/09/Icon_devilsadvocate.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_assassin",
+        "name": "Skrytobójca",
+        "ability": "Raz w trakcie gry, w nocy*, wybierz gracza. Ginie on, nawet jeśli z jakiegokolwiek powodu nie powinien.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeśli Skrytobójca nie użył jeszcze swojej zdolności: Skrytobójcaalbo pokazuje głową sygnał „nie”, albo wskazuje na gracza. Ten gracz umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "martwy",
+            " brak zdolności"
+        ],
+        "team": "Minion",
+        "firstNight": 0.0,
+        "otherNight": 36.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/4/49/Icon_assassin.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_witch",
+        "name": "Wiedźma",
+        "ability": "Każdej nocy wybierz gracza - jeśli jutro nominuje, umrze. Tracisz tę zdolność przy trzech żywych graczach.",
+        "firstNightReminder": "Wiedźma wskazuje na gracza. Jeśli ten gracz nominuje jutro, natychmiast umiera.",
+        "otherNightReminder": "Jeśli przy życiu pozostaje 4 lub więcej graczy - Wiedźma wskazuje gracza. Jeśli ten gracz jutro nominuje, natychmiast umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "przeklęty"
+        ],
+        "team": "Minion",
+        "firstNight": 24.0,
+        "otherNight": 14.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/7/7b/Icon_witch.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_yaggababble",
+        "name": "Gaducha",
+        "ability": "Zaczynasz znając tajną frazę. Za każdym razem gdy powiesz ją publicznie, gracz może umrzeć.",
+        "firstNightReminder": "Pokaż Gadusze jej sekretną frazę.",
+        "otherNightReminder": "Wybierz liczbę graczy równą lub mniejszą łącznej liczbie razy którą gaducha wypowiedziała publicznie swoją tajną frazę. Ci gracze umierają.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon"
+        ],
+        "team": "Demon",
+        "firstNight": 2.0,
+        "otherNight": 35.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/0/08/Icon_yaggababble.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_lordoftyphon",
+        "name": "Władca Minosu",
+        "ability": "Każdej nocy*, wybierz gracza który umrze. [Wszyscy źli są obok siebie, jesteś po środku. +1 Sługus. od -? do +? Przybyszy]",
+        "firstNightReminder": "",
+        "otherNightReminder": "Władca Minosu wskazuje gracza. Gracz ten umiera.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Demon",
+        "firstNight": 0.0,
+        "otherNight": 33.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/c/cf/Icon_lordoftyphon.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_ojo",
+        "name": "Ojo",
+        "ability": "Każdej nocy*, wybierz postać. Gracz któy jest tą postacią umiera. Jeśli nie ma jej w grze, Bajarz wybiera, kto umiera.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Obudź Ojo. Wskazuje na swojej karcie postać. Jeżeli ta postać jest w grze: umiera, inaczej wybierz kto umiera.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Demon",
+        "firstNight": 0.0,
+        "otherNight": 33.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/6/6f/Icon_ojo.png",
+        "setup": false,
+        "edition": "custom"
+    }
+]

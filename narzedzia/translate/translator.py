@@ -33,13 +33,18 @@ def work():
     # Tworzenie nowego JSON-a
     new_json_data = []
     for item in json_data:
-        if isinstance(item, dict):
+        if isinstance(item, dict) and item['id'] == '_meta':
             new_json_data.append(item)  # Zachowaj oryginalne mapy
-        elif isinstance(item, str):
+        elif isinstance(item, str) or isinstance(item, dict):
             # Dodaj nową mapę, jeśli klucz istnieje w danych CSV
-            merged_map = character_data.get(item, {}).copy()
-            if item in translations:
-                merged_map.update({k: v for k, v in translations[item].items() if v})
+            idd = ''
+            if isinstance(item, dict):
+                idd = item['id']
+            else:
+                idd = item
+            merged_map = character_data.get(idd, {}).copy()
+            if idd in translations:
+                merged_map.update({k: v for k, v in translations[idd].items() if v})
             
             if 'id' in merged_map:
                 merged_map['id'] = f"pl_PL_{merged_map['id']}"

@@ -142,7 +142,7 @@ buddhist,Buddhist,"For the first 2 minutes of each day, veteran players may not 
 sentinel,Sentinel,There might be 1 extra or 1 fewer Outsider in play.,,,,,Fabled,0.0,0.0,https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/sentinel.png,True,0
 djinn,Djinn,Use the Djinn's special rule. All players know what it is.,,,,,Fabled,0.0,0.0,https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/djinn.png,False,0
 organgrinder,Organ Grinder,All players keep their eyes closed when voting & the vote tally is secret. Votes for you only count if you vote.,,,,About to die,Minion,50.0,36.0,https://wiki.bloodontheclocktower.com/images/6/61/Icon_organgrinder.png,False,3
-vizier,Vizier,"All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately.",Announce 'The Vizier is in play' and state which player they are.,,,,Minion,54.0,,https://wiki.bloodontheclocktower.com/images/a/a4/Icon_vizier.png,False,3
+vizier,Vizier,"All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately.",Announce 'The Vizier is in play' and state which player they are.,,,,Minion,54.0,0.0,https://wiki.bloodontheclocktower.com/images/a/a4/Icon_vizier.png,False,3
 knight,Knight,You start knowing 2 players that are not the Demon.,"During setup, mark two non-Demon players with the Knight’s “Know” reminders.
 During the first night, wake the Knight. Point to the two players marked “Know”.",,,"Know",Townsfolk,33.0,0.0,https://wiki.bloodontheclocktower.com/images/8/8e/Icon_knight.png,False,3
 steward,Steward,You start knowing 1 good player.,"While preparing the first night, put the “Know” reminder by any good character token.

@@ -4,7 +4,8 @@ import os
 
 
 IMG_DIR = "../../img/"
-TEAM_ORDER = ["Townsfolk", "Outsider", "Minion", "Demon"]
+TEAM_ORDER = ["Townsfolk", "Outsider", "Minion", "Demon","Traveller", "Fabled"]
+TEAM_IGNORE = ["Traveller", "Fabled"]
 TEAM_TRANSLATED = {"Townsfolk": "Mieszczanie", "Outsider": "Przybysze", "Minion": "Sługusi", "Demon": "Demony"}
 FONT_PATH = "fonts/DejaVuSans.ttf"
 FONT_BOLD_PATH = "fonts/DejaVuSans-Bold.ttf"
@@ -29,19 +30,13 @@ class PDF(FPDF):
         if os.path.exists(img_path):
             self.image(img_path, x=5, y=self.get_y()-4, w=10)
         self.set_x(15)
-        if len(name) > 14:
-            self.set_font("DejaVu", "B", size=7)
-        else:
-            self.set_font("DejaVu", "B", size=8)
+        self.set_font("DejaVu", "B", size=8)
         y1 = self.get_y() -1
         self.multi_cell(22, 3, name)
         y2 = self.get_y() +3
         self.set_y(y1)
         self.set_x(37)
-        if len(ability) > 130:
-            self.set_font("DejaVu", size=7)
-        else:
-            self.set_font("DejaVu", size=8)
+        self.set_font("DejaVu", size=8)
         self.multi_cell(0, 4, ability)
         if self.get_y() < y2: self.set_y(y2)
         self.ln(2)
@@ -76,6 +71,8 @@ def work():
 
     current_team = None
     for char in sorted_characters:
+        if char["team"] in TEAM_IGNORE:
+            continue
         if char["team"] != current_team:
             current_team = char["team"]
             pdf.chapter_title(TEAM_TRANSLATED[current_team])
@@ -83,8 +80,9 @@ def work():
         img_path = os.path.join(IMG_DIR, f"Icon_{char['id'].replace('pl_PL_', '')}.png")
         pdf.character_row(img_path, char["name"], char["ability"])
 
-    pdf.output("output.pdf")
-    print("PDF wygenerowany jako output.pdf")
+    filename = f"{ header_data.get('name', 'Nowy skrypt') }_PL.pdf"
+    pdf.output(filename)
+    print("PDF wygenerowany jako",filename)
 
 if __name__ == "__main__":
     work()

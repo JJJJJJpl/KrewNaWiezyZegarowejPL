@@ -1,0 +1,431 @@
+[
+    {
+        "id": "_meta",
+        "name": "Illusion of Evil",
+        "author": "Navean"
+    },
+    {
+        "id": "pl_PL_grandmother",
+        "name": "Babcia",
+        "ability": "Zaczynasz grę, znając tożsamość i postać jednego dobrego gracza. Jeśli Demon go zabije, umierasz wraz z nim.",
+        "firstNightReminder": "Pokaż wybrany żeton postaci i gracza który nim jest.",
+        "otherNightReminder": "Jeśli wnuk został zabita przez Demona tej nocy, Babcia umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Wnuk"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 40.0,
+        "otherNight": 51.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/2/26/Icon_grandmother.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_bountyhunter",
+        "name": "Łowca nagród",
+        "ability": "Zaczynasz znając jednego złego gracza. Jeżeli gracz którego znasz umrze, poznajesz kolejnego złego gracza. [1 Mieszczanin jest zły]",
+        "firstNightReminder": "Wskaż 1 złego gracza. Obudź mieszczanina który jest zły i pokaż mu kartę „Jesteś” i kciuka w dół że jest zły.",
+        "otherNightReminder": "Jeżeli ostatni zły gracz nie żyja, wskaż nowego.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Zna"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 46.0,
+        "otherNight": 64.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/5/5b/Icon_bountyhunter.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_sailor",
+        "name": "Żeglarz",
+        "ability": "Każdej nocy wybierz żywego gracza. Ktoryś z Was będzie pijany do zmierzchu. Nie możesz umrzeć.",
+        "firstNightReminder": "Żeglarz wskazuje na żywego gracza. Albo Żeglarz, albo wybrany gracz, jest pijany.",
+        "otherNightReminder": "Ostatnio pijany gracz przestaje być pijany. Żeglarz wskazuje na żywego gracza. Albo Żeglarz, albo wybrany gracz, jest pijany.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Pijany"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 11.0,
+        "otherNight": 4.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/1/16/Icon_sailor.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_king",
+        "name": "Król",
+        "ability": "Każdej nocy, jeśli jest więcej lub tyle samo martwych co żywych graczy, poznajesz 1 żywą postać. Demon wie, że jesteś Królem.",
+        "firstNightReminder": "Obudź Demona, pokaż mu kartę „Ta postać cię wybrała”, pokaż żeton Króla i wskaż gracza, który jest Królem.",
+        "otherNightReminder": "Jeżeli zmarłych jest więcej niż żywych, pokaż Królowi żeton postaci żyjącego gracza.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 10.0,
+        "otherNight": 63.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_king.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_flowergirl",
+        "name": "Kwiaciarka",
+        "ability": "Każdej nocy* dowiadujesz się, czy Demon dziś zagłosował.",
+        "firstNightReminder": "Umieść żeton 'Demon nie głosował'.",
+        "otherNightReminder": "Pokiwaj głową na TAK lub pokręć na NIE w zależności od tego, czy Demon dziś zagłosował. Umieść żeton 'Demon nie głosował' (zabierz żeton 'Demon głosował', jeśli tam jest).",
+        "remindersGlobal": [],
+        "reminders": [
+            "Demon głosował",
+            "Demon nie głosował"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 57.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/a/ac/Icon_flowergirl.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_oracle",
+        "name": "Wyrocznia",
+        "ability": "Każdej nocy* dowiadujesz się, ilu martwych graczy jest złych.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Pokaż na palcach liczbę martwych złych graczy (0, 1, 2 itd.).",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 59.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/b/bb/Icon_oracle.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_lycanthrope",
+        "name": "Wilkołak",
+        "ability": "Każdej nocy* wybierz żywego gracza. Jeśli jest dobry, umiera, a Demon nie zabija tej nocy. Jeden dobry gracz jest dla ciebie zły.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Wilkołak wskazuje na żyjącego gracza: jeśli jest dobry, umiera i demon nie morze zabić tej nocy.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon",
+            "zły"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 22.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/9/92/Icon_lycanthrope.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_gossip",
+        "name": "Plotkara",
+        "ability": "Każdego dnia możesz wygłosić publiczne oświadczenie. Jeśli było prawdziwe, jeden z graczy umrze nocą.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeżeli oświadczenie było prawdą, wybierz gracza który umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Dead"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 38.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/c/c7/Icon_gossip.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_courtier",
+        "name": "Dworzanin",
+        "ability": "Raz w trakcie gry, nocą, wybierz postać. Jest ona pijana przez 3 noce i 3 dni.",
+        "firstNightReminder": "Dworzanin albo kręci głową na 'nie',  albo wskazuje tożsamość na karcie postaci. Jeśli Dworzanin użył swej zdolności: Jeśli ta tożsamość występuje w grze, ten gracz staje się pijany.",
+        "otherNightReminder": "Zmniejsz licznik nocy obok pijanej postaci. Jeżeli Dworzanin jeszcze nie użył swojej umiejętności: Dworzanin albo kręci głową na 'nie',  albo wskazuje tożsamość na karcie postaci. Jeśli Dworzanin użył swej zdolności: Jeśli ta tożsamość występuje w grze, ten gracz staje się pijany.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Pijany 1",
+            "Pijany 2",
+            "Pijany 3",
+            "Zużyty"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 19.0,
+        "otherNight": 8.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/e/e0/Icon_courtier.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_seamstress",
+        "name": "Szwaczka",
+        "ability": "Raz w trakcie gry, nocą, wybierz 2 graczy (nie siebie) - dowiadujesz się, czy są w tej samej drużynie.",
+        "firstNightReminder": "Szwaczka albo kręci głową na nie albo wskazuje dwóch innych graczy. Jeśli Szwaczka wybrała dwóch graczy, pokiwaj bądź pokręć głową w zależności od tego czy są w tej samej drużynie.",
+        "otherNightReminder": "Jeśli Szwaczka nie wykorzystała jeszcze swojej zdolności - Szwaczka albo kręci głową na nie albo wskazuje dwóch innych graczy. Jeśli Szwaczka wybrała dwóch graczy, pokiwaj bądź pokręć głową w zależności od tego czy są w tej samej drużynie.",
+        "remindersGlobal": [],
+        "reminders": [
+            "brak zdolności"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 43.0,
+        "otherNight": 60.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/5/53/Icon_seamstress.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_fool",
+        "name": "Błazen",
+        "ability": "Za pierwszym razem kiedy miałbyś umrzeć, przeżywasz.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [
+            "Brak umiejętności"
+        ],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/d9/Icon_fool.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_magician",
+        "name": "Iluzjonista",
+        "ability": "Demon myśli, że jesteś Sługusem. Sługusi myślą, że jesteś Demonem.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 5.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/9/93/Icon_magician.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_choirboy",
+        "name": "Chórzysta",
+        "ability": "Jeżeli Demon zabije Króla, dowiadujesz się kto jest Demonem. [+ Król]",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeżeli król został zabity przez Demona, obudź chórzystę i wskaż gracza który jest Demonem.",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Townsfolk",
+        "firstNight": 0.0,
+        "otherNight": 44.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/d9/Icon_choirboy.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_mutant",
+        "name": "Mutant",
+        "ability": "Jeśli \"szalejesz\" na punkcie bycia Przybyszem, możesz zostać stracony.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/2/2e/Icon_mutant.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_moonchild",
+        "name": "Cyganka",
+        "ability": "Kiedy dowiesz się, że nie żyjesz, publicznie wybierz jednego gracza. Tej nocy, jeśli był to dobry gracz, umiera.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeśli Syganka użyje swojej zdolności, aby dzisiaj zaatakować gracza: Jeśli ten gracz był dobry, ginie.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon"
+        ],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 50.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/dc/Icon_moonchild.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_drunk",
+        "name": "Pijak",
+        "ability": "Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś Mieszczaninem, ale twoja umiejętność nie działa prawidłowo.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [
+            "Pijak"
+        ],
+        "reminders": [],
+        "team": "Outsider",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/4/4a/Icon_drunk.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_lunatic",
+        "name": "Szaleniec",
+        "ability": "Myślisz, że jesteś Demonem, ale nie jesteś. Demon wie, kim jesteś oraz kogo wybierasz nocą.",
+        "firstNightReminder": "Jeśli 7 lub więcej graczy: Pokaż Lunatykowi „dowolne” informacje podane w Informacjach o Demonach. Jeśli żeton otrzymany przez Lunatyka to Demon, który obudzi się dziś wieczorem: Pozwól Lunatykowi wykonać akcje Demona. Umieść ich żetony „ATAKU”. Obudź Demona. Pokaż prawdziwy żeton postaci Demona. Pokaż mu gracza Lunatyka. Jeśli Lunatyk zaatakował graczy: Pokaż prawdziwemu Demonowi każdego oznaczonego graczoa. Usuń wszystkie żetony „ATAKU” Lunatyka.",
+        "otherNightReminder": "Pozwól Lunatykowi wykonywać akcje Demona. Umieść ich żetony 'ATAK'. Jeśli Lunatyk wybrał graczy: Obudź Demona. Pokaż żeton 'ATAK', a następnie wskaż każdego oznaczonego gracza. Usuń wszystkie żetony 'ATAK'.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Atak"
+        ],
+        "team": "Outsider",
+        "firstNight": 8.0,
+        "otherNight": 20.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/6/64/Icon_lunatic.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_godfather",
+        "name": "Ojciec chrzestny",
+        "ability": "Na początku gry dowiadujesz się, którzy Przybysze są w grze. Jeśli jeden z nich dziś umarł, wybierz nocą gracza, który zginie. [-1 lub +1 Przybysz]",
+        "firstNightReminder": "Pokaż żeton każdego Przybysza który jest w grze.",
+        "otherNightReminder": "Jeżeli dziś zmarł przybysz: Ojciec chrzestny wskazuje na gracza. Ten gracz umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon",
+            "zmarł dziś"
+        ],
+        "team": "Minion",
+        "firstNight": 21.0,
+        "otherNight": 37.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/d/d0/Icon_godfather.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_devilsadvocate",
+        "name": "Adwokat diabła",
+        "ability": "Każdej nocy wybierz żywego gracza (innego niż poprzedniej nocy). Jeśli jutro zostanie stracony, nie umrze.",
+        "firstNightReminder": "Adwokat diabła wskazuje na żywego gracza. Ten gracz przetrwa jutrzejszą egzekucję.",
+        "otherNightReminder": "Adwokat diabła wskazuje na żywego gracza, innego niż zeszłej nocy. Ten gracz przetrwa jutrzejszą egzekucję.",
+        "remindersGlobal": [],
+        "reminders": [
+            "Przeżywa egzekucję"
+        ],
+        "team": "Minion",
+        "firstNight": 22.0,
+        "otherNight": 13.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/0/09/Icon_devilsadvocate.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_cerenovus",
+        "name": "Cerenovus",
+        "ability": "Każdej nocy wybierz gracza i dobrą postać - ma jutro szaleć na punkcie bycia tą postacią, bo inaczej może zostać stracony.",
+        "firstNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
+        "otherNightReminder": "Cerenovus wskazuje gracza i postać na skrypcie. Obudź tego gracza. Pokaż mu kartę 'TA POSTAĆ CIĘ WYBRAŁA' i żeton Cerenovusa. Pokaż żeton wybranej postaci. Jeśli ten gracz nie będzie jutro szalał na punkcie bycia tą postacią, może zostać stracony.",
+        "remindersGlobal": [],
+        "reminders": [
+            "szaleństwo"
+        ],
+        "team": "Minion",
+        "firstNight": 25.0,
+        "otherNight": 15.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/4/45/Icon_cerenovus.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_goblin",
+        "name": "Goblin",
+        "ability": "Jeżeli po nominacji publicznie ogłosisz, że jesteś Goblinem i tego samego dnia zostaniesz stracony, twoja drużyna wygrywa.",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "remindersGlobal": [],
+        "reminders": [
+            "Ogłoszono"
+        ],
+        "team": "Minion",
+        "firstNight": 0.0,
+        "otherNight": 0.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/e/e2/Icon_goblin.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_vortox",
+        "name": "Vortox",
+        "ability": "Każdej nocy* wybierz gracza, który umiera. Zdolności Mieszczan zwracają fałszywe informacje. Każdego dnia, jeśli nikt nie został stracony, zło wygrywa.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Vortox wskazuje gracza. Gracz ten umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon"
+        ],
+        "team": "Demon",
+        "firstNight": 0.0,
+        "otherNight": 31.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/8/89/Icon_vortox.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_zombuul",
+        "name": "Zombul",
+        "ability": "Każdej nocy*, jeśli dziś nikt nie zginął, wybierz gracza, który umrze. Kiedy umrzesz po raz pierwszy, będziesz nadal życ, ale będziesz się pokazywać jako martwy.",
+        "firstNightReminder": "",
+        "otherNightReminder": "Jeśli nikt nie zginął w ciągu dnia: Zombuul wskazuje gracza. Ten gracz umiera.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon",
+            "dziś umarł"
+        ],
+        "team": "Demon",
+        "firstNight": 0.0,
+        "otherNight": 25.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/1/15/Icon_zombuul.png",
+        "setup": false,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_vigormortis",
+        "name": "Vigormortis",
+        "ability": "Każdej nocy* wybierz gracza, który umiera. Sługusi, których zabijesz, nadal posiadają swoją zdolność i zatruwają 1 sąsiadującego mieszczanina. [-1 Przybysz]",
+        "firstNightReminder": "",
+        "otherNightReminder": "Vigormortis wskazuje gracza. Gracz ten umiera. Jeśli był to sługus, to nadal może korzystać on ze swojej zdolności i jeden z jego sąsiadujących mieszczan zostaje na stałe otruty.",
+        "remindersGlobal": [],
+        "reminders": [
+            "ma zdolność",
+            "otruty",
+            "zgon"
+        ],
+        "team": "Demon",
+        "firstNight": 0.0,
+        "otherNight": 32.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/1/1a/Icon_vigormortis.png",
+        "setup": true,
+        "edition": "custom"
+    },
+    {
+        "id": "pl_PL_fanggu",
+        "name": "Pango",
+        "ability": "Każdej nocy* wybierz gracza, który umiera. Pierwszy Przybysz, którego tak zabijesz, zostaje złym Pango, a Ty giniesz zamiast niego. [+1 Przybysz]",
+        "firstNightReminder": "",
+        "otherNightReminder": "Pango wskazuje gracza. Gracz ten umiera. Lub, jeśli ten gracz jest przybyszem i nie ma w grze innego Pango - Demon ginie zamiast wybranego gracza. Wybrany gracz jest teraz złym Pango. Obudź nowego Pango. Pokaż mu kartę 'JESTEŚ' i żeton Pango, potem pokaż kciukiem do dołu, że jest zły.",
+        "remindersGlobal": [],
+        "reminders": [
+            "zgon"
+        ],
+        "team": "Demon",
+        "firstNight": 0.0,
+        "otherNight": 29.0,
+        "image": "https://wiki.bloodontheclocktower.com/images/0/0e/Icon_fanggu.png",
+        "setup": true,
+        "edition": "custom"
+    }
+]
